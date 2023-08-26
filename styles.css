@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+.container {
+  max-width: 400px;
+}
+
+input[type='text']:focus {
+  color: #c5e5ec;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+input[type='text'] {
+  color: #c5e5ec;
+  border: 3px solid #162e32;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+input[type='text']::placeholder {
+  color: white;
+}
+.todos li {
+  background: #40586d;
+}
+.delete {
+  cursor: pointer;
+}
+
+.custom-icon {
+  color: #41717b; /* Your desired icon color */
+  font-size: 16px; /* Your desired icon size */
+  /* Add any other icon styling you want */
+}
